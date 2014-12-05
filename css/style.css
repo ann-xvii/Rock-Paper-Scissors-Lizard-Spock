@@ -1,0 +1,110 @@
+/*media query: when screen gets 543px (so you can use max-width: 543px)
+replace large diagram with smaller image
+of placeholder:
+
+tie image
+win image
+comp win image;
+
+*/
+
+
+body {
+	text-align: center;
+	font-family: Times;
+}
+
+header h1 {
+	padding: 35px;
+	border-bottom: 2px solid black;
+	font-size: 55px;
+}
+
+#container {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+#scoreboard {
+	width: 1080px;
+	height: 180px;
+	margin: 0 auto;
+	border: 3px solid blue;
+}
+
+/*margin: 1.5% auto;*/
+
+#userSide {
+	display: block;
+	float: left;
+	height: 180px;
+	padding: 0 20px 0;
+	margin: 0 auto;
+	width: 30%;
+
+}
+
+#userPick,
+#computerPick {
+	width: 100%;
+}
+
+#winner {
+	float: left;
+	height: 180px;
+	/*width: 300px;*/
+	margin: 0 auto;
+	width: 30%;
+}
+
+#computerSide {
+	display: block;
+	float: right;
+	height: 180px;
+	padding: 0 20px 0;
+	margin: 0 auto;
+	width: 30%;
+}
+
+h2 {
+	font-size: 45px;
+	margin-top: 0px;
+}
+
+p {
+	font-size: 45px;
+}
+
+#gameBoard {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+#result {
+	visibility: hidden;
+}
+
+img {
+
+	/*width: 1579px;
+	height: 1200px;*/
+	/*	style for rpsls.png*/
+	width: 1515px; 
+	height: 1515px;
+	margin: 65px auto 0;
+	border: 5px solid red;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav {
+	margin: 0 auto;
+}
+
+button {
+	padding: 30px;
+	margin: 15px;
+	border-radius: 5px;
+}
